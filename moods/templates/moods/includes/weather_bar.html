@@ -1,0 +1,5 @@
+{% load static %}
+
+<h1 class="weather-bar {{ weather_main|cut:".jpg" }} mb-5">
+{{ city }}, {{ country }} | {{ weather_description }} | {{ temperature }} °C 
+</h1>

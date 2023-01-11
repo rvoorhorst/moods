@@ -1,0 +1,104 @@
+/* FONTS */
+
+.weather-bar {
+    font-size: 1.3rem;
+    font-weight: 200;
+}
+
+
+/* HEADER */
+
+.header {
+    background-color: black;
+    position: absolute;
+}
+
+.header-logo {
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    filter: drop-shadow(2px 2px 1px rgb(240, 240, 240));
+}
+
+
+/* IMAGES */
+
+.background-img {
+    position: relative;
+    width:100%;
+	height:auto;	
+}
+
+
+/* FORM */
+
+.textinput {
+    color: rgb(240, 240, 240);
+    text-align: center;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #1a1a1a;
+    filter: drop-shadow(0.3px 0.3px 0.3px rgb(122, 122, 122));
+
+}
+.textinput:focus, input:focus {
+    outline: none;
+
+}
+
+.textinput::placeholder {
+    color: rgb(0, 0, 0);
+}
+
+.textinput:focus::placeholder {
+  opacity: 0;
+}
+
+
+/* EMBED */
+
+.centered-embed {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* WEATHER BAR */
+
+.weather-bar {
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.atmosphere {
+    color:rgb(240, 239, 239);
+}
+
+.clear {
+    color:rgb(240, 239, 239);
+}
+
+.clouds {
+    color:rgb(240, 239, 239);
+}
+
+.drizzle {
+    color:rgb(240, 239, 239);
+}
+
+.rain {
+    color:rgb(240, 239, 239);
+}
+
+.snow {
+    color:rgb(22, 22, 22);
+}
+
+.thunderstorm {
+    color:rgb(240, 239, 239);
+}

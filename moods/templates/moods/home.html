@@ -1,0 +1,20 @@
+
+{% extends "moods/base.html" %}
+
+{% block title %}MOODS{% endblock %}
+{% load static %}
+
+{% block content %}
+
+<div class="background" style="background-image: url('/static/home.jpg'); background-size: cover; background-position:center center;">
+    {% include "moods/includes/header.html" %}
+<div class="d-flex align-items-center justify-content-center vh-100">
+    <div class="position-relative">
+        <form action="" method="post">
+        {% csrf_token %}
+        {{ form }}
+        </form>
+    </div>
+<div>
+{% endblock %}
+
