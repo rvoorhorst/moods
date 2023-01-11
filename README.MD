@@ -20,9 +20,9 @@ $ make install
 
 Add Spotify API keys etc. in settings.py 
 
-* CLIENT_ID 
-* CLIENT_SECRET 
-* TOKEN_URL 
+* CLIENT_ID
+* CLIENT_SECRET
+* TOKEN_URL
 * SPOTIFY_API_URL
 
 For a tutorial on setting up your Spotify Developer account and obtaining API keys, token etc see:
@@ -30,7 +30,8 @@ For a tutorial on setting up your Spotify Developer account and obtaining API ke
 * https://developer.spotify.com/documentation/web-api/quick-start/
 
 
-Add OpenWeather URL containing your API key to settings.py. For example: http://api.openweathermap.org/data/2.5/forecast/?id=_YOUR_ID_HERE_&units=metric&q=
+Add OpenWeather URL containing your API key to '''settings.py'''. 
+For example: http://api.openweathermap.org/data/2.5/forecast/?id=_YOUR_ID_HERE_&units=metric&q=
 
 Of course units can be changed to imperial, other OpenWeather API parameters can be added as well.
 
