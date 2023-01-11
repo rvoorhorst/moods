@@ -1,0 +1,15 @@
+{% extends "moods/base.html" %}
+{% load static %}
+
+{% block title %}MOODS | PLAYLIST{% endblock %}
+
+{% block content %}
+
+<div style="background-image: url('{% static weather_main %}'); background-size: cover; background-position:center center;">
+  {% include "moods/includes/header.html" %}
+<div class="centered-embed vh-100">
+      <script src="https://open.spotify.com/embed-podcast/iframe-api/v1" async></script>
+      <iframe src="https://open.spotify.com/embed?uri={{ uri }}" width="55%" height="45%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+</div>
+{% include "moods/includes/weather_bar.html" %}
+{% endblock %}
