@@ -1,6 +1,6 @@
 # Moods
 
-A simple Django application that finds suitable music for the local type of weather using the OpenWeather and Spotify Api.
+A Django web app for finding suitable music for the local weather type using the OpenWeather and Spotify API.
 
 
 ## Requirements
