@@ -2,7 +2,7 @@
 *sqlite3
 *.pyc
 *.egg-info/
-__pycache__/
+*__pycache__/
 .DS_Store
 .vscode/
 .egg-info/
